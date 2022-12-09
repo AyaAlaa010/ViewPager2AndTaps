@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_180sdp"
+    android:id="@+id/img_background"
+    android:src="@drawable/background"
+    android:scaleType="fitXY"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@drawable/tab_layout"
+    app:layout_constraintStart_toStartOf="parent"
+    android:weightSum="10"
+    android:layout_marginTop="@dimen/_80sdp"
+    android:orientation="vertical"
+    >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/main_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:tabSelectedTextColor="#80449CE1"
+            app:tabGravity="fill"
+            app:tabIndicatorAnimationMode="elastic"
+            app:tabIndicatorGravity="stretch"
+            app:tabMode="fixed"
+            android:background="@drawable/tab_layout"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:elevation="@dimen/_30sdp"
+
+
+
+
+            />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/main_tabs_pager"
+            android:layout_width="match_parent"
+
+            android:layout_height="0dp"
+            android:layout_weight="6.5"
+            app:layout_constraintTop_toBottomOf="@+id/main_tabs"
+
+
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:weightSum="3"
+
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/tab_layout"
+            android:backgroundTint="@color/green"
+            android:text="@string/find"
+            android:id="@+id/btn_find"
+            android:textAllCaps="false"
+
+
+
+            />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/main_tabs_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:tabSelectedTextColor="#80449CE1"
+            app:tabGravity="fill"
+            app:tabIndicatorAnimationMode="elastic"
+            app:tabIndicatorGravity="stretch"
+            app:tabMode="fixed"
+            android:background="@drawable/tab_layout"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:elevation="@dimen/_30sdp"
+
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

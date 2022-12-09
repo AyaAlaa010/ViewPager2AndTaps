@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "425935569884",
+    "project_id": "trip-f55a5",
+    "storage_bucket": "trip-f55a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425935569884:android:b16ff0ae4ee92b37a74519",
+        "android_client_info": {
+          "package_name": "com.example.innovationfactorytask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425935569884-5437t38oh9hu9p5phc8b4h26g8q991pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmtHYVPDrny0ZC8CZISff1gtDSVc8Dkhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425935569884-5437t38oh9hu9p5phc8b4h26g8q991pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/drawable/border.xml" value="0.188" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/drawable/person.xml" value="0.188" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/drawable/person_trip.xml" value="0.188" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/drawable/tab_layout.xml" value="0.1035" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/drawable/tab_view_layout.xml" value="0.2435" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/drawable/trip_layout.xml" value="0.188" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/drawable/viewer_layout.xml" value="0.188" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/layout/fragment_bed.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/layout/fragment_car.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/layout/fragment_flight.xml" value="0.16" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/iti program/courses/Android/InnovationFactoryTask/app/src/main/res/layout/fragment_location.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
